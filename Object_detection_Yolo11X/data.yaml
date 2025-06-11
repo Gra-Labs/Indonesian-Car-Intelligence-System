@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['car']
+
+roboflow:
+  workspace: cardetection-129fm
+  project: vehicle-detection-bvxpr-qh9ds
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/cardetection-129fm/vehicle-detection-bvxpr-qh9ds/dataset/1
